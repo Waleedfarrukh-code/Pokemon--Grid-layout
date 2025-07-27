@@ -29,7 +29,7 @@ header .navbar .nav-content{
 .nav-list  .logo {
     background-color: white;
     height: auto;
-    padding: 8px 11px 4px 11px; */
+    padding: 8px 11px 4px 11px; 
      box-shadow: -1px -2px 10px -1px rgba(0, 0, 0, 0.75);
     -webkit-box-shadow: -1px -2px 10px -1px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: -1px -2px 10px -1px rgba(0, 0, 0, 0.75);
@@ -148,6 +148,138 @@ header .navbar .nav-content{
 
 }
 
+/* ===========hero-section=========== */
+ 
+.container {
+    background-image: url(./assest/container_bg.png);
+    width: 1280px;
+    height: 1000px;
+    position: relative;
+    background-color: white;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+ .container-content {
+    background-color: white;
+    width: 900px;
+    height: 860px;
+    display: grid;
+    grid-template-columns: 270px 270px 270px;
+   padding: 40px 20px;
+    gap: 25px;
+}
 
 
+.container-content .pokemon-tcg {
+    display: flex;
+    flex-direction: column;
+    grid-column: 1 / span 2;
+    grid-row: 1 / span 2;
+}
 
+.container-content .pokemon-tcg img {
+    border-radius: 10px 10px 0 0;
+}
+
+.container-content .pokemon-tcg-text {
+    background-color: rgb(245, 86, 29);
+    padding: 20px;
+    border-radius: 0 0 10px 10px;
+}
+
+.container-content .pokemon-tcg-text h3 {
+    color: white;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.container-content .pokemon-tcg-text p {
+    padding-top: 10px;
+    color: rgba(0, 0, 0, 0.884);
+}
+
+
+.container-content .scarlet-violet {
+    display: flex;
+    flex-direction: column;
+}
+
+.container-content .scarlet-violet img {
+    width: 280px;
+    border-radius: 10px 10px 0 0;
+}
+
+.container-content .scarlet-violet h3 {
+    width: 280px;
+    background-color: rgb(185, 118, 30);
+    color: white;
+    padding: 20px;
+    font-weight: 500;
+    font-size: 22px;
+    border-radius: 0 0 10px 10px;
+}
+
+.container-content .pokemon-present {
+    display: flex;
+}
+
+.container-content .pokemon-present img {
+    width: 120px;
+    height: 150px;
+    border-radius: 10px 10px 0 10px;
+}
+
+.container-content .pokemon-present h3 {
+    background-color: gray;
+    height: 150px;
+    width: 150px;
+    padding: 20px;
+    font-size: 22px;
+    font-weight: 500;
+    border-radius: 0 10px 10px 0;
+    color: rgba(0, 0, 0, 0.89);
+}
+
+.container-content .pokemon-tcg-1, .worlds, .infographics {
+    display: flex;
+    flex-direction: column;
+}
+
+.container-content .pokemon-tcg-1 img, .worlds img, .infographics img {
+    width: 280px;
+    border-radius: 10px 10px 0 0;
+}
+
+.container-content .pokemon-tcg-1 h3 , .worlds h3, .infographics  h3 {
+    width: 280px;
+    background-color: blueviolet;
+    padding: 20px;
+    font-size: 22px;
+    font-weight: 500;
+    border-radius: 0 0 10px 10px;
+    color: white;
+} 
+
+.worlds h3 {
+    background-color: rgb(61, 192, 61);
+}
+
+.infographics  h3 {
+    background-color: rgba(0, 0, 0, 0.808);
+}
+
+.infographics:hover, .pokemon-tcg-1:hover, .worlds:hover, .pokemon-present:hover, .scarlet-violet:hover, .pokemon-tcg:hover  {
+    animation: hover 0.2s linear;
+}
+
+    @keyframes hover {
+    from {
+        transform: translateY(-4px);
+    }
+
+    to {
+        transform: translateY(0);
+    }
+}
