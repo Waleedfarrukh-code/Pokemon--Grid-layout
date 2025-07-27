@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto';
+    overflow-x: hidden;
+    background-image: url(./assest/body_bg.png);
+}
+
+/* header style  */
+
