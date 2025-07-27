@@ -74,6 +74,80 @@ header .navbar .nav-content{
     padding:  7px 0 0 0 ;
 }
 
+   /* ===========nav-content-2============ */
+
+   .nav-content-2 {
+    background-color: white  ;
+    min-height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid  rgba(177,177,177, 0.726);
+
+   }
+
+   .nav-content-2 .nav-list-2 {
+    display: flex;
+    text-align: center;
+    list-style: none;
+
+   }
+
+   .nav-content-2 .nav-list-2 li {
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 130px;
+    height: 90px;
+     transition: transform 0.3s ease;
+     position: relative;
+     justify-content: center;
+     color: rgb(128, 126, 126);
+
+}
+.nav-content-2 .nav-list-2 i {
+    font-size: 30px ;
+}
+.nav-content-2 .nav-list-2 span {
+    font-size: 13px ;
+}
+
+.nav-content-2 .nav-list-2 .first-li:hover {
+    background-color: gray;
+    color: white;
+
+}
+.nav-content-2 .nav-list-2 .second-li:hover {
+    background-color: rgba(202, 6, 6, 0.753);
+    color: white;
+
+}
+.nav-content-2 .nav-list-2 .third-li:hover {
+    background-color: rgba(236, 106, 46);
+    color: white;
+
+}
+.nav-content-2 .nav-list-2 .fourth-li:hover {
+    background-color: rgba(226, 176, 9, 0.753);
+    color: white;
+
+}
+.nav-content-2 .nav-list-2 .five-li:hover {
+    background-color: rgba(75, 146, 9, 0.753);
+    color: white;
+
+}
+.nav-content-2 .nav-list-2 .six-li:hover {
+    background-color: rgba(118, 127, 255);
+    color: white;
+
+}
+.nav-content-2 .nav-list-2 .seven-li:hover {
+    background-color: rgba(2, 15,  190);
+    color: white;
+
+}
+
 
 
 
